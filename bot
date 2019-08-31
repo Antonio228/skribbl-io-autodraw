@@ -1,0 +1,5 @@
+{'port': '5002', 'join': '', 'language': 'English', 'x': 3, 'y': 4, 'shuffle': True}
+# Connect user settings
+await sio.emit('userData' , {"name": "­", "code":"", "avatar": [-1, -1, -1, -1], "join": SETTINGS['join'], "language": SETTINGS['language'], "createPrivate": False})
+# Google search settings
+arguments = {"keywords": word, "limit":10, "print_urls":False, 'no_download':True, 'safe_search':True, 'exact_size':'200,200', 'type': 'clipart', 'format': 'jpg'
